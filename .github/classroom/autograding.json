@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "test_extreme_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_extreme_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test_invalid_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_invalid_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_negative_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_negative_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test_normal_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_normal_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_obese_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_obese_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_overweight_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_overweight_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_underweight_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_underweight_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test_unrealistic_bmi.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_unrealistic_bmi.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
