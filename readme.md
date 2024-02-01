@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13654886&assignment_repo_type=AssignmentRepo)
 # HW2 BMI Calculator
 
 You're working in a clinic and your supervisor has asked you to create a program that calculates a patient's BMI. This program will be used to keep record your patient's health, by following the conditions below:
