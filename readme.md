@@ -7,7 +7,7 @@ You're working in a clinic and your supervisor has asked you to create a program
 - 18.5 - 24.9, normal
 - 25 - 29.9, overweight
 - 30 - 34.9, obese
-- 35 <, extremely obese
+- 40 <, extremely obese
 
 BMI Fomula:
 
