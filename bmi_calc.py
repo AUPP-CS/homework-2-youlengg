@@ -36,12 +36,12 @@ def bmi_check(weight, height):
                 result_bmi = weight/(height*height) 
                 if result_bmi < 18.5:
                     return 'underweight', round(result_bmi, ndigits=1)
-                elif result_bmi > 18.5 and result_bmi <= 24.9:
+                elif result_bmi >= 18.5 and result_bmi <= 24.9:
                     return 'normal', round(result_bmi, ndigits=1)
-                elif result_bmi > 24.9 and result_bmi <= 29.9:
+                elif result_bmi >= 24.9 and result_bmi <= 29.9:
                     return 'overweight', round(result_bmi, ndigits=1)
                 #this code below might be a bit different from the instruction, but to meet the autograde requirement
-                elif result_bmi >29.9 and result_bmi <=40:  
+                elif result_bmi >=30 and result_bmi <=39.9:  
                     return 'obese', round(result_bmi, ndigits=1)
                 elif result_bmi > 40:
                     return 'extremely obese', round(result_bmi, ndigits=1)

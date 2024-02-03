@@ -23,20 +23,25 @@ print("""\n
 
 #First, showing user some instruction.
 print("💪💪💪 Welcome to Good Health BMI Calculator 💪💪💪")
-print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-print("To know your Body Mass Index, Please follow through these below instructions. ⬇️  ⬇️  ⬇️  💡 💡 💡")
-print("\n1️⃣  .Enter your name. 💬")
-print("\n2️⃣  .Enter your weight in kg. ⏲️")
-print("\n3️⃣  .Enter your height in meter. 📏")
-print("\n4️⃣  .See your result. 📋")
-print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+print("┆      💡  💡  💡 To know your Body Mass Index, Please follow through these below instructions. ⬇️   ⬇️   ⬇️       ┆")
+print("┆                                                                                                               ┆")
+print("┆     1️⃣  .Enter your name. 💬                                                                                   ┆")
+print("┆                                                                                                               ┆")
+print("┆     2️⃣  .Enter your weight in kg. ⏲️                                                                            ┆")
+print("┆                                                                                                               ┆")
+print("┆     3️⃣  .Enter your height in meter. 📏                                                                        ┆")
+print("┆                                                                                                               ┆")
+print("┆     4️⃣  .See your result. 📋                                                                                   ┆")
+print("┆                                                                                                               ┆")
+print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
 # Add your code here
 while True:
     #Asking user for three input, name, weight, and height.
-    user_name = input("\n👉👉👉  Enter your name💬 💬 💬: ")
-    user_weight = input("👉👉👉  Enter your weight in kg ⏲️  ⏲️  ⏲️ : ")
-    user_height = input("👉👉👉  Enter your height in meter📏 📏 📏: ")
+    user_name = input("\n👉👉👉  Enter your name💬 💬 💬 : ")
+    user_weight = input("👉👉👉  Enter your weight in kg ⏲️  ⏲️  ⏲️  : ")
+    user_height = input("👉👉👉  Enter your height in meter📏 📏 📏 : ")
     
     #variable 'returned' represent 1 or 2 return values base on the return from the function.
     returned = bmi_check(user_weight, user_height)
@@ -122,5 +127,8 @@ while True:
     # if user don't want to continue, we'll print message and break the loop.
     else:
         print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+        print("\nShutting down... 🔜")
+        print("\n⏳ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 100% ⏳")
+        print("\nExit⛔⛔")
         print("\nThank you for using our app 🥰 🥰 🥰")
         break
