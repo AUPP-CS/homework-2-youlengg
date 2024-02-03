@@ -58,13 +58,13 @@ while True:
         if status == 'underweight':
             print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
             print("|                                                                                                            |")
-            print(f'     💪 {user_name}, you are {status} and your bmi is: {result_bmi} 💪. You should eat more healthy calories.🥗 🥗 ')
+            print(f'     💪 {user_name}, you are {status} and your bmi is: {result_bmi} 💪. You should eat more healthy calories.  🥗 🥗 ')
             print("|                                                                                                            |")
             print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         elif status == 'normal':
             print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
             print("|                                                                                                            |")
-            print(f'     💪💪 {user_name}, you are {status} and your bmi is: {result_bmi} 💪💪. Nice, keep maintain your normal bmi. 💪 ✅ ')
+            print(f'     💪💪 {user_name}, you are {status} and your bmi is: {result_bmi} 💪💪. Nice, keep maintain your normal bmi.  💪  ✅ ')
             print("|                                                                                                            |")
             print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         elif status == 'overweight':
@@ -80,7 +80,7 @@ while True:
             print("|                                                                                                            |")
             print(f'                     💪💪💪💪 {user_name}, you are {status} and your bmi is: {result_bmi} 💪💪💪💪.')
             print("|                                                                                                            |")
-            print("                You should eat healthy reduced-calorie diet ad exercise reqularly 💪 🏃 🏋")
+            print("                You should eat healthy reduced-calorie diet and exercise reqularly 💪 🏃 🏋")
             print("|                                                                                                            |")
             print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         elif status == 'extremely obese':
