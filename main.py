@@ -43,16 +43,16 @@ while True:
     user_weight = input("👉👉👉  Enter your weight in kg ⏲️  ⏲️  ⏲️  : ")
     user_height = input("👉👉👉  Enter your height in meter📏 📏 📏 : ")
     
-    #variable 'returned' represent 1 or 2 return values base on the return from the function.
-    returned = bmi_check(user_weight, user_height)
+    #variable 'bmi_calculate' store the return values (calculted bmi result) from the function.
+    bmi_calculate = bmi_check(user_weight, user_height)
 
     # Here we check the type of returned value to see how many values returned.
     # In this case if the returned value is in tuple type, it mean that function retured multiple value packed together. (For our code now, function returned 2 values).
-    if type(returned) == tuple:
+    if type(bmi_calculate) == tuple:
         # then we create new variable which is status and result_bmi is to unpakced the tuple to two different values and store in status, and result_bmi
         # we store in status and result_mbi becuase we already know that the 2 value that function returned is status and the calculated mbi result.
         # the concept of placing status infront of result_mbi is because in our logic code the status is in fitst order, and result is in second order.
-        status, result_bmi = returned
+        status, result_bmi = bmi_calculate
         
         # printing different result base on user's status
         if status == 'underweight':
@@ -97,7 +97,7 @@ while True:
     # so here we come to check what is that one valued returned, looking at bmi_calc.py, there are two possible values, which are invalid input, and unrealistic information
     
     # if the returned value is 'invalid input', the code will print invalid input
-    elif returned == 'invalid input':
+    elif bmi_calculate == 'invalid input':
         print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         print("|                                                                                |")
         print('                         ❌❌❌ Invalid input ❌❌❌')
@@ -105,7 +105,7 @@ while True:
         print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
     # if that one returned value is unrealistic information, the code will print unrealistic information
-    elif returned == 'unrealistic information':
+    elif bmi_calculate == 'unrealistic information':
         print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         print("|                                                                                |")
         print('                    🚫🚫🚫  Unrealistic information  🚫🚫🚫')
@@ -113,10 +113,10 @@ while True:
         print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
 
     # here is the condition for the loop, we ask user if they wish to continue or not.
-    check_condition = input('\n🔄🔄🔄 Do you want to start again? 🔄🔄🔄 y/n: ').lower()
+    check_loop_condition = input('\n🔄🔄🔄 Do you want to start again? 🔄🔄🔄 y/n: ').lower()
 
     # if check condition not equal to n, it means that user don't want to stop, so the code return True to continue the loop.
-    if check_condition != 'n':
+    if check_loop_condition != 'n':
         print("\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
         print("\nLoading… 🔜")
         print("\n⏳ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 100% ⏳")
